@@ -1,0 +1,52 @@
+/******************
+General
+******************/
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: helvetica;
+
+}
+
+
+
+/******************
+Header
+******************/
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+
+}
+
+header img {
+  height: 1.5rem;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
+}
+
+header h5 {
+  display: inline-block;
+  padding: 0.66rem 0;
+}
+
+
+/******************
+Body
+******************/
+
+.mainContainer {
+
+}
+
+
+/******************
+Navigation
+******************/
