@@ -23,8 +23,6 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
-
 }
 
 header img {
@@ -43,10 +41,119 @@ Body
 ******************/
 
 .mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.motor {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: flex-start;
 
 }
 
+.motor h5, h2 {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.motor h5 {
+  font-size: 0.77rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  margin-top: 10rem;
+}
+
+.motor h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  padding-left: 2rem;
+
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.product {
+    border: 4px solid black;
+    margin: 0 2rem;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.product p {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+}
+
+.product img {
+  height: 9rem;
+  padding: 2rem;
+  max-width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 4rem;
+  margin-left: 1.25rem;
+}
+
+.information h6 {
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+
+
+/******************
+Footer
+******************/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 5rem;
+}
 
 /******************
 Navigation
 ******************/
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: firebrick;
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0.75rem;
+  margin: 0 3rem;
+}
+
+.large {
+  display: none;
+}
